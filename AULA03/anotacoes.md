@@ -30,10 +30,13 @@ sudo psql -h 127.0.0.1 -U postgres
 >Aqui, ele vai precisar da senha!
 ---
 Alterações nos arquivos:
+
 ![alt text](image.png)
+
 Utilizei `cd/etc` para entrar no dirétorio e depois utilizei `ls` para listar todos, e, após achar o postgresql, usei `cd` para entrar dentro do diretório.
 
 ![alt text](image-1.png)
+
 Aqui usei `ls` para ver o que tinha dentro do postgresql, e depois entrei no diretório 18 (número da versão do postgresql). Após isso utilizei `ls` novamente, entrei no diretório `main` e listei para ver tudo que havia dentro.
 
 A primera alteração foi feita no arquivo postgresql.conf. Para alterar foi necessário o uso do comando:
@@ -67,7 +70,9 @@ Para restartar a aplicação utilizamos o comando `sudo systemctl restart postgr
 Após restartar a aplicação, verificamos o status da mesma com o comando `sudo systemctl status postgresql`
 
 O comando bash `pg_lsclusters` exibe o status e outras informações sobre o postgresql. No meu caso ficou verde, então estava tudo 👍. 
+
 ![alt text](image-4.png)
+
 Caso estivesse vermelho seria necessário iniciar o postgresql por meio do comando `sudo systemctl start postgresql`
 
 Porta padrão do postgresql -> 5432
