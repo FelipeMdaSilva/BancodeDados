@@ -44,3 +44,5 @@ E por fim consultei todos os valores com o comando:
 ```sql
 SELECT * FROM cidades;
 ```
+
+![alt text](image-3.png)
