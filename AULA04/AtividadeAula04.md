@@ -12,6 +12,7 @@ Após isso, utilizei o `\l` para checar se tinha criado ⬇️
 ---
 
 Depois utilizei a extensão no VsCode para entrar no banco de dados cidades e criar uma nova query. 
+
 ![alt text](image-1.png)
 
 Começei criando uma tabela com o comando:
